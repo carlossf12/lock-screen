@@ -1,0 +1,6 @@
+*.bak
+*.log
+*.tmp
+*.qmlc
+plugin-list.pre-*.json
+plugin-list.pre-*.txt

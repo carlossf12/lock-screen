@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "carlossf12.lock-screen",
+  "name": "Lock Screen",
+  "version": "1.4.0",
+  "author": "Carlos",
+  "description": "User-owned Omarchy lock screen replacement preserving the official lock service behavior.",
+  "kinds": [
+    "service",
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "panel": "Settings.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.lock"
+  }
+}
